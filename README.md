@@ -11,6 +11,13 @@ The package implements the framework in:
 > Statistical Evidence Strong Enough? Using Hypothesis Tests to Value Data
 > Collection." Unpublished manuscript.
 
+## Installation
+
+Install the source package from a local archive with:
+
+```r
+install.packages("avalue_0.1.0.tar.gz", repos = NULL, type = "source")
+```
 
 ## Quick start
 
@@ -82,6 +89,11 @@ A-values have the same welfare units as the point estimates and standard
 errors. Estimates must be expressed in comparable welfare units before their
 A-values are ranked across studies.
 
+## Theoretical condition
+
+The numerical implementation uses the paper's unconstrained-parameter result,
+which requires the standardized parameter bound to satisfy
+`Delta_bar / s1 >= 0.76`.
 
 ## Documentation and citation
 
