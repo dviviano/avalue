@@ -1,0 +1,28 @@
+citHeader("To cite avalue in publications, use:")
+
+bibentry(
+  bibtype = "Manual",
+  title = "avalue: Abstention Values for Optimal Follow-Up Experimentation",
+  author = c(
+    person("Aristotelis", "Epanomeritakis"),
+    person("Davide", "Viviano")
+  ),
+  year = "2026",
+  note = paste("R package version", meta$Version)
+)
+
+citHeader("The methodology implemented by avalue is described in:")
+
+bibentry(
+  bibtype = "Unpublished",
+  title = paste(
+    "When Is the Statistical Evidence Strong Enough?",
+    "Using Hypothesis Tests to Value Data Collection"
+  ),
+  author = c(
+    person("Aristotelis", "Epanomeritakis"),
+    person("Davide", "Viviano")
+  ),
+  year = "2026",
+  note = "Unpublished manuscript"
+)
