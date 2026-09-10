@@ -82,11 +82,6 @@ A-values have the same welfare units as the point estimates and standard
 errors. Estimates must be expressed in comparable welfare units before their
 A-values are ranked across studies.
 
-## Theoretical condition
-
-The numerical implementation uses the paper's unconstrained-parameter result,
-which requires the standardized parameter bound to satisfy
-`Delta_bar / s1 >= 0.76`.
 
 ## Documentation and citation
 
