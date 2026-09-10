@@ -11,13 +11,6 @@ The package implements the framework in:
 > Statistical Evidence Strong Enough? Using Hypothesis Tests to Value Data
 > Collection." Unpublished manuscript.
 
-## Installation
-
-Install the source package from a local archive with:
-
-```r
-install.packages("avalue_0.1.0.tar.gz", repos = NULL, type = "source")
-```
 
 ## Quick start
 
